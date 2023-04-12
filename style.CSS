@@ -1,0 +1,71 @@
+ * {
+     margin: 0;
+     padding: 0;
+  
+ }
+ header {
+     
+     height: 120px;
+     width: 100%;
+     background: black;
+ }
+
+ h1{
+    color:yellow;
+    align-items: center;
+    display: flex;
+    height:100px;
+    justify-content: space-evenly;
+
+ }
+ .ac{
+    float: right;
+    position: relative; 
+    bottom: 80px;
+ }
+ 
+
+ .ab {
+    background-image: url("morning.jpg");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+ }
+ .ad {
+     background-image: url("evening.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 400px;
+     width: 100%;
+ }
+ .ae {
+     background-image: url("moon.jpg");
+     background-repeat: no-repeat;
+     background-position: 0 0;
+    background-size: cover;
+     height: 400px;
+     width: 100%;
+ }            
+.table1 {
+    width: 50%;
+    color:black;
+    text-align: center; 
+    table-layout: fixed;
+    margin:auto;
+}
+.table3{
+    text-align: center;
+    color:white;
+    width: 50%;
+    table-layout: fixed;
+    margin: auto;
+}
+.table2{
+    text-align: center;
+    color: black;
+    width: 50%;
+    table-layout: fixed;
+    margin: auto;
+}
