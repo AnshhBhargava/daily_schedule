@@ -1,7 +1,7 @@
 const toggleSwitch = document.getElementById('mode-toggle');
 
 toggleSwitch.addEventListener('change', switchTheme, false);
-
+object.onchange = switchTheme(){
 function switchTheme() {
     if (toggleSwitch.checked) {
         document.body.classList.add('dark-mode');
@@ -9,3 +9,4 @@ function switchTheme() {
         document.body.classList.remove('dark-mode');
     }
 }
+};
